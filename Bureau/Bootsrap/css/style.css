@@ -1,0 +1,152 @@
+/*########## Sélecteurs utilisées pour construire le site  ##########*/
+
+body {
+	background-image: url('https://img5.cliparto.com/pic/s/189538/5349489-simple-geometric-pattern-gray-lines.jpg');
+	background-repeat: repeat;
+}
+
+h1 {
+	text-align:center;
+	text-shadow: 2px 2px 4px lightblue;
+	letter-spacing: 12px;
+}
+
+.maConsigne {
+	border: 2px solid black;
+	display:inline-block;
+	border-radius:20px;
+	padding:5px 20px;
+	margin:20px;
+	font-size: 20px;
+
+}
+
+#bigger {
+	font-size: 20px;
+}
+
+.titles {
+	background-color:purple;
+	line-height:40px;
+	color:white;
+	padding-left:20px;
+	font-size:16px;
+}
+
+.titles:hover {
+	background-color:magenta;
+	cursor:pointer;
+}
+
+.borders {
+	border: 12px ridge lightblue;
+	background-color:white;
+	display:none;
+	margin: 15px 0;
+}
+
+.votreReponse {
+	background-color:lightgrey;
+	border:4px double lightblue;
+	margin:20px;
+	padding: 10px 20px; 
+}
+
+[class*="col-"] { /*sélectionne tous les éléments dont la classe débute avec "col-"*/
+  	background-color: rgba(10,90,100, 50%);
+  	border: 1px dotted rgba(10,30,30, 50%);
+  	line-height: 40px;
+  	text-align:center;
+  		
+  }
+
+[class*="col-"]:empty { /*pseudo-sélecteur qui style un élément vide!*/
+	min-height:40px;
+}
+
+/*########## Classes de couleur à udisposition ##########*/
+
+.orange {
+	background-color:orange;
+}
+
+.blue {
+	background-color: blue;
+	color: white;
+}
+
+.turquoise {
+	background-color: cyan;
+}
+
+.green {
+	background-color:green;
+	color:white;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.pink {
+	background-color: pink;
+}
+.col-sm-1{
+	background-color: grey;
+}
+.col-sm-2{
+	background-color: yellow;
+}
+.col-sm-3{
+	background-color: #efbd28;
+}
+.col-sm-6{
+	background-color: white;
+}
+.col-sm-12{
+	background-color: #f27d00;
+}
+.col-sm-4{
+	background-color: white;
+}
+.col-sm-8{
+	background-color: grey;
+}
+#header{
+	background-color: grey;
+	text-align: left;
+}
+#footer{
+	background-color: grey;
+	text-align: left;
+}
+#head{
+	text-align: left;
+}
+#foot{
+	text-align: left;
+}
+.col-md-12{
+	background-color: grey;
+}
+.col-md-1{
+	background-color: #efbd28;
+}
+.col-md-6{
+	background-color: green;
+}
+.col-sm-9{
+	background-color: green;
+}
+.col-md-2{
+	background: #f27d00;
+}
+#menu{
+	background-color: orange;
+}
+.d-block {
+  	display: block;
+}
+    .d-none {
+      display: none;
+    }
