@@ -1,0 +1,13 @@
+mkdir j'aime_le_shell
+cd '/home/flores/bureau/j'aime_le_shell
+touch Test1
+mkdir Test2
+mkdir Test3
+mkdir Test4
+touch Test5
+mkdir Test6
+mkdir le_shell_c'est_trop_cool
+mv Test1 /le_shell_c'est_trop_cool
+mv Test5 /le_shell_c'est_trop_cool
+cp Test2 /le_shell_c'est_trop_cool
+cp Test6 /le_shell_c'est_trop_cool
